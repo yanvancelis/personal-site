@@ -2,11 +2,12 @@ import { useState } from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 import { Header, Content, ContentAbout, Copy, EuMesmo, About, Footer, SubTitle, Title, Box, Bio, Text, Img, CTA, Social, Titles } from '../styles'
-import { Logo, Insta, Medium, In, Behance } from '../assets'
-
+import {Logo, Instagram, Telegram, Medium, Behance, LinkedIn } from '../assets'
 import Image from 'next/image'
 
 export default function Home() {
+ 
+
 
   return (
     <>
@@ -16,9 +17,8 @@ export default function Home() {
       <Header>
         <Content>
           <Logo color="#fff" />
-          <Link href="http://malito:yanvancelis@gmail.com">
-              <CTA>Fale comigo</CTA>
-          </Link>
+          <a href="https://t.me/yanvancelis"><CTA>Fale comigo</CTA></a>
+              
           
         </Content>        
       </Header>
@@ -36,19 +36,19 @@ export default function Home() {
                   </Title>
               </>
             <Text>
-                Eu trabalho com experiência do 
-                usuário. Tenho experiência com UI
-                Design e desenvolvimento web.
+                Eu trabalho com Experiência do 
+                Usuário. Também tenho afinidades com
+                UI Design e programação.
             </Text>
             </Titles>
+            
             <Social>
-              <Link href="http://instagram.com/yanvancelis" alt="Instagram">
-                <Insta color="#1D1D1D"/>
-              </Link>
-              
-              <Medium color="#1D1D1D"/>
-              <In color="#1D1D1D"/>
+                <a href="http://instagram.com/yanvancelis"><Instagram color="#1D1D1D"/></a>
+                <a href="http://medium.com/@yanvancelis"><Medium color="#1D1D1D"/></a>
+                <a href="http://behance.net/yanvancelis"><Behance color="#1D1D1D"/></a>
+                <a href="https://www.linkedin.com/in/yan-vancelis-16b76b68"><LinkedIn color="#1D1D1D"/></a>
             </Social>
+
           </Bio>
           
         </ContentAbout>
@@ -57,7 +57,7 @@ export default function Home() {
       <Footer>
         <Content>
           <div>
-            <Copy color="#9C9F9E" >Design e desenvolvimento by&nbsp;</Copy><EuMesmo> Eu mesmo</EuMesmo>
+            <Copy color="#9C9F9E" >Design e desenvolvimento por&nbsp;</Copy><EuMesmo> Eu mesmo</EuMesmo>
           </div>
           <div></div>
         </Content>

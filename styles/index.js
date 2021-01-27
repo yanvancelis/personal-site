@@ -191,6 +191,7 @@ export const Social = styled.div`
 
     svg {
         width:40px;
+        height:40px;
         margin-right:30px;
         transition: 0.5s;
         opacity:80%;
