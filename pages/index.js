@@ -30,7 +30,7 @@ export default function Home() {
           <Bio>
             <Titles>
               <>
-                <SubTitle>Olá pessoas!</SubTitle>
+                <SubTitle>Olá, pessoas!</SubTitle>
                   <Title>
                       Sou Yan Vancelis e sou Designer!
                   </Title>
